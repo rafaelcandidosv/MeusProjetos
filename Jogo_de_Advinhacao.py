@@ -4,9 +4,9 @@ import random
 def advinhacao():
 
     print("\n")
-    print("                                         ********************************")
-    print("                                         Bem vindo no jogo de Advinhação!")
-    print("                                         ********************************")
+    print("\t\t\t\t\t********************************")
+    print("\t\t\t\t\tBem vindo no jogo de Advinhação!")
+    print("\t\t\t\t\t********************************")
 
     numero_secreto = random.randrange(1, 101)
     total_de_tentativas = 0
